@@ -11,8 +11,6 @@ gem "json"
 
 
 group :development do
-    gem 'shotgun'
     gem 'pry'
     gem 'faker'
-
 end
