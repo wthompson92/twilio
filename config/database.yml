@@ -1,0 +1,7 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: digits
+  pool: 2
+  username: 
+  password: Rio1992
