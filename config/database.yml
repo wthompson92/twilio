@@ -1,7 +1,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: digits
+  database: twilio
   pool: 2
-  username: 
+  username:
   password: Rio1992

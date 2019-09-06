@@ -15,9 +15,9 @@ ActiveRecord::Schema.define(version: 2019_09_05_015509) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "phone_numbers", force: :cascade do |t|
+  create_table "incoming_texts", force: :cascade do |t|
     t.string "phone_number"
-    t.boolean "verified", default: false
+    t.string "body"
   end
 
 end
