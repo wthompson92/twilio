@@ -3,6 +3,6 @@ ENV['RACK_ENV'] ||= "development"
 
 require 'bundler/setup'
 Bundler.require(:default, ENV['SINATRA_ENV'])
-set :database, 'postgres:db/digits.db'
+set :database, 'post:db/digits.db'
 
 require_all 'app'
